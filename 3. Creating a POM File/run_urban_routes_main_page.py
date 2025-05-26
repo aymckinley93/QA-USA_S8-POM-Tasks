@@ -6,7 +6,7 @@ from urban_routes_main_page import UrbanRoutesPage  # Import the POM class
 def test_custom_bike_option():
     driver = webdriver.Chrome()
     # Update server URL
-    driver.get('https://cnt-1559d7a4-e9f5-49d2-a568-67515da435b6.containerhub.tripleten-services.com')
+    driver.get('https://cnt-9b8c07e0-3682-4eda-811c-c8e8c53f6ee0.containerhub.tripleten-services.com/')
     urban_routes_page = UrbanRoutesPage(driver)
     urban_routes_page.enter_from_location('East 2nd Street, 601')
     urban_routes_page.enter_to_location('1300 1st St')
